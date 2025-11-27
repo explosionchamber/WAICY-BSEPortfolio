@@ -13,9 +13,6 @@ My project provides an effortless solution to deciding whether trash should thro
 <!---# !!!!edits needed
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
-<!--![Headstone Image](AaronH.png)-->
-<img src="AaronH.png" width="450" height = "600">
-
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mXxHEJFORzs?si=5PXfBaCRD7nCJeey" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -627,34 +624,5 @@ cv2.destroyAllWindows()
 picam2.stop()
 ```
 
-# Starter Project: Retro Arcade Console
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WhjaGhmm6Ow?si=g7xkTYvMltJQsVe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Project Overview
-
-  The starter project that I chose is the Retro Arcade Console. When turned on, it starts a pre-coded game of Tetris. The game is run on a 8x16 LED pixel grid, and there is a 3 digit 7-segment display for the score. This project demonstrates how physical input through buttons can translate into electrical signals to play a game. To assemble the console I had to solder all the connections myself, and the project in general was mostly centered around developing my solder skills. I would say that my soldering skills improved a lot, especially when soldering wires very close to each other, where precision is needed to prevent the wires from short-circuiting. 
-
-## Materials Used
-**1x** Circuit Board -> contains processing and code for Tetris  
-**6x** Buttons -> 4 for the D-Pad, 1 for the start button, 1 for the pause button  
-**2x** 8x8 LED pixel grids -> for the LED display  
-**1x** 3 digit 7-segment display -> monitors the score  
-**1x** Capacitor -> stores and maintains working electrical charge  
-**1x** Passive Buzzer -> used to make Tetris game sounds  
-**1x** Power switch -> toggles power to the circuit board  
-**1x** Power switch button cap -> red cap that covers the power switch  
-**3x** AAA Battery -> provides power for cicuit board  
-**1x** Battery box -> Houses the batteries and directs power to the board with wires  
-**10x** screws -> Secures the circuit board and battery box to acrylic  
-**4x** Isolation Pillars -> Provides spacing between acrylic and circuit board  
-**4x** Copper Pillars -> Provides spacing between acrylic and circuit board  
-**2x** Acrylic Main panels -> houses the electrical components  
-**4x** Acrylic Side panels -> joins the main panels  
-
-<img src="palm.jpg" width="500" height = "500">
-
-## Challenges faced
-  The main challenge of this starter project is soldering. The connections were very close to each other, and it was hard to hold the components in place, hold a solder, and hold the solder wire all at once with only two hands, especially as the components kept slipping out from undernes the circuit board as I was trying to solder them. The solder also kept getting dirty and burning the rubber part of the wires, which built up as ash on the solder joints. I had to remove all of those imperfections before my project could work.
 
 
