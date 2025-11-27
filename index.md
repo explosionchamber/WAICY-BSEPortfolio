@@ -6,10 +6,6 @@ My project provides an effortless solution to deciding whether trash should thro
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:|:--:|
-| Aaron H | VCHS | Mechanical Engineering | Incoming Sophomore
-
 <!---# !!!!edits needed
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
@@ -32,7 +28,9 @@ Wiring work and CAD for the trash bins and electronics case, and 3D printing the
 
 ### CAD Work
   For the electronics case, I started with designing a compartment for the Raspberry Pi. One of the main challenges was to make something that was both possible to 3D print with minimal supports and possible to assemble. I took a Raspberry Pi 4B model off of GrabCAD and designed the lower part of the case around it. I also incorporated holes where a USB-C cable and an HDMI cable could be plugged in, giving power to the Raspberry Pi. I also added vents on both sides for the fan. I was going to mount on the lid, so that air could get out of the closed box. I made the lid a separate part that could be screwed on to the bottom frame, so that I could put the Raspberry Pi in first during assembly. 
+  
   On the lid part, I made a socket where it could hold the breadboard, wire ports for the jumper wires and ribbon cable, and a holder for the DC powerjack, which powers the other components. To cool the whole system, I made an area where a 5V fan could be mounted at a slanted angle to cool the area without getting in the way of components mounted on the main face of the lid. 
+  
   The DC powerjack was an interesting part of the design because it had no screw holes to attach to anything, so I had to design in a two part clamp to hold it in place, with one part of it attached to the lid, and the other as a screw-in holder which tightened on the powerjack, holding it in place. I also designed screw ports to hold more parts. Because of the limitations of assembly and 3D printing, I made the sensor mount and wire cover two seperate parts. The sensor mount had a hole for the round parts of the ultrasonic sensor to stick out of, securing it. The wire cover was designed at a 30% incline to combat the fact that 3D printers cannot print horizontally or close to that angle.
 
 <img src="notexplode.png" width="500" height = "400">
@@ -40,7 +38,9 @@ Electronics Case
 <img src="explode.png" width="500" height = "800">
 
   The next thing that I had to model were the trash cans. They ended up taking a lot less time to model, as the only part I had to worry about were the servos. On the front, I modeled an image of a trash can on one, and a recycle symbol on another. I knew that my 3D printer could handle small 90 degree overhangs, so I knew that I could make 2mm deep symbols without too many issues. I started the modelling process by making a servo mount, where the top was left open for the servo horn to interact with lid. Because it wasn't too demanding in terms of constraints, I incorporated a design into the trash cans, trying to give them a futuristic look. 
+  
   Because the servo was mounted on the side of the trash can, I was worried that it would tip over, so I extended the bottom edge of the trash can backwards to help support that. I was also worried that having the lid attached only to the servo would make it wobble, so I added an axle and socket system on the other side to stabilize the lid. I also realized that the servo would be impossible to screw in sideways due to the servo holder blocking the holes, so I also made a rectangle hole in the side to let screws and a screwdriver in. I knew that my 3D printer could handle a bridge length that was similar to the floating length of the rectangle hole, so I let it stay. To ensure that the other overhangs would be 3D printabale, I used the fillet and chamfer tools to turn 90 degree overhangs into more forgiving slopes that also contributed to the overall aesthetic. 
+  
   For the lids, I realized that as they opened, they would interfere with the servos, so I plotted the motion of the lid as it opened and cut holes so that the lid would no longer interset with the servo. Then, I added back the side of the trash can so that there wouldn't be any openings in the trash can when it was closed, and also changed the bottom part accordingly.
 
 <img src="notboxex.png" width="500" height = "300">
